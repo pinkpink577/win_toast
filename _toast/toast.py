@@ -22,7 +22,7 @@ class Toast(object):
         self.toast.show_toast(
             title= self.title,
             msg = self.msg,
-            icon_path= 'one.ico',
+            icon_path='one.ico',
             duration= 10,
             threaded=True)
 
